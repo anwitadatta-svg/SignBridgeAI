@@ -3,7 +3,12 @@
 Real-time sign language alphabet recognition from a webcam. It tracks your hand, predicts the letter, builds sentences and speaks them aloud.
 
 ## Features
-- **Real-time hand tracking** with MediaPipe
+ - **Real-time hand tracking** with MediaPipe
+- **Custom-trained alphabet classifier** (scikit-learn)
+- **Sentence builder**: hold a sign for 1 second to add a letter
+- **Text-to-speech** output with pyttsx3
+- **Isolated workspace** using a Python virtual environment
+-
 - **Custom-trained letter classifier** (scikit-learn Random Forest)
 - **Sentence builder**: hold a sign for 1 second to add the letter
 - **Text-to-speech** output with pyttsx3
